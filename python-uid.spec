@@ -12,7 +12,7 @@ Source0:	http://www.alcyone.com/software/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	79868221e3baa21ae189ebcecd1ad9e6
 Patch0:		python-uid-first-line-path.patch
 URL:		http://www.alcyone.com/software/uid/
-BuildRequires:	python-devel >= 2.3
+BuildRequires:	python-devel >= 1:2.3
 Requires:	python >= 2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

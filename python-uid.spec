@@ -5,15 +5,16 @@ Summary:	Implementation of a "unique" ID (UID) generator in Python
 Summary(pl):	Implementacja generatora unikalnych identyfikatorów (UID) w Pythonie
 Name:		python-%{module}
 Version:	1.0.2
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Libraries/Python
 Source0:	http://www.alcyone.com/software/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	79868221e3baa21ae189ebcecd1ad9e6
 Patch0:		python-uid-first-line-path.patch
 URL:		http://www.alcyone.com/software/uid/
+BuildRequires:	python
 BuildRequires:	python-devel >= 1:2.3
-Requires:	python >= 2.3
+%pyrequires_eq	python-libs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

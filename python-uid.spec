@@ -3,7 +3,7 @@
 %define 	module uid
 
 Summary:	Implementation of a "unique" ID (UID) generator in Python
-Summary(pl):	Implementacja generatora unikalnych indentyfikatorw (UID) w Pythonie
+Summary(pl):	Implementacja generatora unikalnych identyfikatorów (UID) w Pythonie
 Name:		python-%{module}
 Version:	1.0.2
 Release:	1
@@ -31,9 +31,9 @@ hashing mechanism itself, can be overridden both through the command
 line and programmatically by importing the module.
 
 %description -l pl
-Implementacja generatora unikalnych indentyfikatorów w Pythonie.
+Implementacja generatora unikalnych identyfikatorów w Pythonie.
 Implementacja nie spe³nia standardów UUID lub GUID, lecz stara siê
-u¿yæ dostêpnych informacji sysytemowych, komputera, u¿ytkownika,
+u¿yæ dostêpnych informacji systemowych, komputera, u¿ytkownika,
 ¶rodowiska pow³oki, procesu oraz innych do wygenerowania
 identyfikatora (domy¶lnie w postaci MD5).
 

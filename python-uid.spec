@@ -6,7 +6,7 @@ Summary(pl):	Implementacja generatora unikalnych identyfikatorów (UID) w Pythoni
 Name:		python-%{module}
 Version:	1.0.2
 Release:	1
-License:	GPLv2
+License:	GPL v2
 Group:		Libraries/Python
 Source0:	http://www.alcyone.com/software/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	79868221e3baa21ae189ebcecd1ad9e6

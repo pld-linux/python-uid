@@ -1,5 +1,4 @@
 
-%include	/usr/lib/rpm/macros.python
 %define 	module uid
 
 Summary:	Implementation of a "unique" ID (UID) generator in Python

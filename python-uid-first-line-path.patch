@@ -1,0 +1,8 @@
+--- uid.py.orig 2004-05-27 21:11:56.622404304 +0200
++++ uid.py      2004-05-27 21:12:21.610605520 +0200
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/python
++#!/usr/bin/python
+
+ """
+ Generation of relatively unique IDs.

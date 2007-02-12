@@ -2,7 +2,7 @@
 %define 	module uid
 
 Summary:	Implementation of a "unique" ID (UID) generator in Python
-Summary(pl):	Implementacja generatora unikalnych identyfikatorów (UID) w Pythonie
+Summary(pl.UTF-8):   Implementacja generatora unikalnych identyfikatorÃ³w (UID) w Pythonie
 Name:		python-%{module}
 Version:	1.0.2
 Release:	2
@@ -30,24 +30,24 @@ as a module. The data used to be fed into the hash, as well as the
 hashing mechanism itself, can be overridden both through the command
 line and programmatically by importing the module.
 
-%description -l pl
-Implementacja generatora unikalnych identyfikatorów w Pythonie.
-Implementacja nie spe³nia standardów UUID lub GUID, lecz stara siê
-u¿yæ dostêpnych informacji systemowych, komputera, u¿ytkownika,
-¶rodowiska pow³oki, procesu oraz innych do wygenerowania
-identyfikatora (domy¶lnie w postaci MD5).
+%description -l pl.UTF-8
+Implementacja generatora unikalnych identyfikatorÃ³w w Pythonie.
+Implementacja nie speÅ‚nia standardÃ³w UUID lub GUID, lecz stara siÄ™
+uÅ¼yÄ‡ dostÄ™pnych informacji systemowych, komputera, uÅ¼ytkownika,
+Å›rodowiska powÅ‚oki, procesu oraz innych do wygenerowania
+identyfikatora (domyÅ›lnie w postaci MD5).
 
 %package doc
 Summary:	Documentation for uid module
-Summary(pl):	Dokumentacja do modu³u uid
+Summary(pl.UTF-8):   Dokumentacja do moduÅ‚u uid
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
 This module contains documentation files for uid Python module.
 
-%description doc -l pl
-Modu³ zawieraj±cy dokumentacjê dla modu³u Pythona uid.
+%description doc -l pl.UTF-8
+ModuÅ‚ zawierajÄ…cy dokumentacjÄ™ dla moduÅ‚u Pythona uid.
 
 %prep
 %setup -q -n %{module}-%{version}

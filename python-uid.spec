@@ -2,7 +2,7 @@
 %define 	module uid
 
 Summary:	Implementation of a "unique" ID (UID) generator in Python
-Summary(pl.UTF-8):   Implementacja generatora unikalnych identyfikatorów (UID) w Pythonie
+Summary(pl.UTF-8):	Implementacja generatora unikalnych identyfikatorów (UID) w Pythonie
 Name:		python-%{module}
 Version:	1.0.2
 Release:	2
@@ -39,7 +39,7 @@ identyfikatora (domyślnie w postaci MD5).
 
 %package doc
 Summary:	Documentation for uid module
-Summary(pl.UTF-8):   Dokumentacja do modułu uid
+Summary(pl.UTF-8):	Dokumentacja do modułu uid
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 

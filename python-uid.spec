@@ -51,7 +51,7 @@ Moduł zawierający dokumentację dla modułu Pythona uid.
 
 %prep
 %setup -q -n %{module}-%{version}
-%patch0 -p0
+%patch -P0 -p0
 
 %install
 rm -rf $RPM_BUILD_ROOT
